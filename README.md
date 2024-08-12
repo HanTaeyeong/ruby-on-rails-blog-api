@@ -1,24 +1,34 @@
-# README
+# Ruby on rails Blog API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple blog API built with Ruby on Rails.
 
-Things you may want to cover:
+## Start 
 
-* Ruby version
+1. Clone the repository:
 
-* System dependencies
+```bash
+git clone https://github.com/HanTaeyeong/ruby-on-rails-blog-api.git
+cd ruby-on-rails-blog-api
+```
 
-* Configuration
+2. Install dependencies:
+```
+bundle install
+```
 
-* Database creation
+3. Set up the database:
+```
+rails db:create
+rails db:migrate
+```
 
-* Database initialization
+4. Run test codes:
+```
+rails test
+```
 
-* How to run the test suite
+4. Run server:
+```
+rails server
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

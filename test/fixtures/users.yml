@@ -1,0 +1,4 @@
+one:
+  username: "TestUser"
+  email: "testuser@example.com"
+  auth_token: "sample_auth_token"
